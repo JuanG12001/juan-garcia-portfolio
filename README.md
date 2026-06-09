@@ -15,12 +15,6 @@ This repository contains the source code for my professional portfolio. It is de
 * **Responsive Design:** Flawless rendering from mobile devices to ultra-wide desktop monitors.
 * **Optimized Performance:** Fast load times and optimized assets leveraging the Next.js App Router.
 
-## 💻 Tech Stack
-
-* **Framework:** [Next.js](https://nextjs.org/)
-* **Library:** [React](https://reactjs.org/)
-* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-* **Deployment:** [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ## 🚀 Getting Started
 
@@ -29,3 +23,19 @@ To run this project locally, ensure you have Node.js installed, then follow thes
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/JuanG12001/juan-garcia-portfolio.git](https://github.com/JuanG12001/juan-garcia-portfolio.git)
+
+Install dependencies:
+
+Bash
+npm install
+Run the development server:
+
+Bash
+npm run dev
+View the project:
+Open http://localhost:3000 with your browser to see the result.
+
+🌐 Deployment
+This project is configured for seamless continuous integration and deployment (CI/CD) via Cloudflare Pages. Every push to the main branch automatically triggers a production build, ensuring the live site is always up to date with the latest code, served globally with ultra-low latency.
+
+Designed and built by Juan García.
